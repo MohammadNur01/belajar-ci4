@@ -23,4 +23,25 @@ class Pages extends BaseController
     ];
     return view('pages/about', $data);
   }
+
+  public function contact()
+  {
+    $data = [
+      'title' => 'Contact Us',
+      'alamat' => [
+        [
+          'type' => 'Rumah',
+          'alamat' => 'Jl. Iskandar Muda No. 21',
+          'kota' => "Surabaya"
+        ],
+        [
+          'type' => 'Kantor',
+          'alamat' => 'Jl. Slamet Riyadi No.14',
+          'kota' => 'Surabaya'
+        ]
+      ]
+    ];
+
+    return view('pages/contact', $data);
+  }
 }
