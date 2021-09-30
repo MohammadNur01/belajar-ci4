@@ -18,7 +18,8 @@
 
               <a href="" class="btn btn-warning">Edit</a>
               <a href="" class="btn btn-danger">Delete</a>
-              <br></br>
+              <br>
+              <br>
 
               <a href="/komik">Kembali ke daftar komik</a>
             </div>
