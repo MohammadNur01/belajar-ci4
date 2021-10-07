@@ -24,7 +24,7 @@ s
           </tr>
         </thead>
         <tbody>
-          <?php $i = 1; ?>
+          <?php $i = 1 + (10 * ($currentPage - 1)); ?>
           <?php foreach ($orang as $o) : ?>
             <tr>
               <th scope="row"><?= $i++; ?></th>
